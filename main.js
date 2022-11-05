@@ -33,6 +33,7 @@ if(mouseIsPressed)
 {
     line(pmouseX, pmouseY, mouseX, mouseY);
 }
+    check_sketch() if(drawn_sketch == sketch) { answer_holder = "set" score++; document.getElementById('score').innerHTML = 'Score: ' + score; }
 }
 
 function classifyCanvas()
